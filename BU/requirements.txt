@@ -1,0 +1,33 @@
+# ────────────────────────────────────────────────────────────────────────
+# BROWSER AGENT — Python Requirements
+# Contains direct and essential dependencies frozen from the project's venv.
+# ────────────────────────────────────────────────────────────────────────
+
+# FastAPI Server & ASGI Runner
+fastapi==0.136.1
+uvicorn==0.47.0
+python-dotenv==1.2.1
+
+# AI & Browser Automation Core
+browser-use==0.12.6
+playwright==1.59.0
+pydantic==2.12.5
+pydantic-settings==2.14.1
+
+# LLM Providers & API Clients
+google-genai==1.65.0
+groq==1.0.0
+openai==2.16.0
+ollama==0.6.1
+
+# Streaming, Image Processing & DOM Utilities
+sse-starlette==3.4.4
+websockets==16.0
+pillow==12.1.1
+beautifulsoup4==4.14.3
+markdownify==1.2.2
+aiofiles==25.1.0
+
+# LangChain Integrations (Required for agent.py standalone script)
+langchain-google-genai>=2.0.0
+langchain-ollama>=0.2.0
